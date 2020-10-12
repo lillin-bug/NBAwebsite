@@ -1,0 +1,398 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,p,img,a,table,tr,td,th {
+			    margin: 0;
+			    padding: 0;
+			    list-style: none;
+			    border: none;
+				}
+				body{
+				background-color: #eeeeee;
+				}
+		     
+			.header{
+				position: relative;
+				height: 151px;
+				width: 100%;
+				background-color: #0074cb;
+				
+			}
+			.header_img{
+				list-style:none;
+				top: 20%;
+				margin-left: 10%;
+				padding-top: 10px;
+			}
+			.header_bottom{
+				margin-top: 20px;
+				margin-left: 10%;
+				width:80%;
+				height:20px;
+				display: flex;
+				
+			}
+			.header_bottom li{
+				width: 89px;
+				height: 20px;
+				folat:left;
+				display: inline-block;
+				list-style:none;
+				color: white;
+				padding-right: 20px;
+				margin-bottom: 5px;	
+				z-index: 999;
+				flex: 1;
+			}
+			.body{
+				position: relative;
+				height: 1600px;
+				width: 100%;
+				display:flex;
+			}
+			.content_left{
+				position: absolute;
+				left: 8%;
+				top: 2%;
+				color: #1e518c;
+				font-size: 15px;
+			}
+			.content_left a{
+				text-decoration: none;
+				color: #1e518c;
+				font-size: 15px;
+			}
+			.breadcrumb{
+				background-color: #eeeeee;
+			}
+			
+			.content_top{
+				position: absolute;
+				width: 1200px;
+				height: 50px;
+				background-color: white;
+				left: 8%;
+				top: 5%;
+				display: flex;
+				justify-content: space-around;
+			}
+			.content_top li{
+				width: 89px;
+				height: 20px;
+				display: inline-block;
+				list-style: none;
+				color: lightgray;
+				margin-left: 75px;
+				margin-top: 10px;	
+			}
+			.content_mid{
+				position: absolute;
+				width: 1200px;
+				height: 191px;
+				background-color: white;
+				left: 8%;
+				top: 9%;
+				display: inline-block;
+				
+			}
+			/* 队标 */
+			.content_mid img{
+				z-index: 999;
+			}
+			/* 队名 */
+			.content_mid div:nth-child(2){
+				position: absolute;
+				display: inline-block;
+				top: 5%;
+				left: 280px;
+				font-size: 20px;
+				font-family: "Microsoft YaHei";
+				
+			}
+			/* 得分 */
+			.content_mid div:nth-child(3){
+				position: absolute;
+				display: inline-block;
+				top: 10%;
+				left: 600px;
+				color: rgb(122, 122, 122);
+				
+			}
+			/* 2019-2020季后赛排名 */
+			.content_mid div:nth-child(4){
+				width: 1200px;
+				height: 35px;
+				background-color: #f6f6f6;
+				position: absolute;
+				left: 0%;
+				bottom: 0%;
+				z-index: 100;	
+			}
+			.rank{
+				position: absolute;
+				top: 20%;
+				left: 55%;
+				font-size: 13px;
+				color: #356da0;
+				z-index: 100;
+			}
+			/* 9、15、5... */
+			.content_mid div:nth-child(5){
+				position: absolute;
+				top: 85%;
+				left: 68%;
+				z-index: 999;
+			}
+			.rank_1 li{
+				display: inline-block;
+				padding-right: 40px;
+				color: rgb(68, 68, 68);
+				font-size: 19px;
+				font-weight: bold;
+			}
+			/* 场均... */
+			.content_mid div:nth-child(6){
+				position: absolute;
+				top: 65%;
+				left: 68%;
+				
+			}
+			.rank_2 li{
+				display: inline-block;
+				padding-right: 20px;
+				color: rgb(122, 122, 122);
+				font-size: 12px;
+			}
+			.table-container{
+				width: 1200px;
+				height: 1170px;
+				position: absolute;
+				left: 8%;
+				top: 22%;
+			}
+			/* 表标题 */
+			.title{
+				width: 1200px;
+				height: 50px;
+				background-color: #0f6db4;
+				
+			}
+			.title span{
+				color: white;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 50px;
+				padding-left: 15px;
+			}
+			.title-right{
+				width: 125px;
+				height: 34px;
+				background-color: #032f4f;
+				position: relative;
+				left: 86%;
+				top: -3.5%;
+				
+			}
+			.title-right span{
+				color: white;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 30px;
+				padding-left: 15px;
+			}
+			.title-right div{
+				line-height: 100%;
+				display: inline-block;
+			}
+			/* 表格 */
+			.table{
+				position: relative;
+				top: -3%;
+				
+			}
+			.head1{
+				width:54px;
+				height:40px;
+				border-radius:50%;
+				float:left;
+				
+			}
+			.text1{
+				float:left;
+				margin-left:5px;
+				
+			}
+			.text1 a{
+				text-decoration:none;
+				color: #0064bb;
+			}
+			td{
+				font-family: Roboto, sans-serif;
+				font-size:15px;
+				font-weight: 700;
+			}
+			
+			/* 尾部 */
+			 .foot{
+				width: 100%;
+				height: 415px;
+				position:relative;
+				top:100%;
+				display: flex;
+				flex-direction: column;
+			}  
+			.foot-top{
+				
+				background-image: url(../img/footer-1.png);
+				flex:2;
+			}
+			.foot-top-1{
+				width: 1200px;
+				position: absolute;
+				left: 8%;
+				
+			}
+			.foot-top-1 div{
+				width: 210px;
+				height: 250px;
+				position: relative;
+				left: 10%;
+				display: inline-block;
+				float: left;
+			}
+			.foot-top-1 .ewm{
+				width: 180px;
+				height: 250px;
+				position: relative;
+				left: 10%;
+				display: inline-block;
+				float: left;
+			}
+			.foot-top-1 .ewm img{
+				width: 110px;
+				height: 110px;
+			}
+			.foot-top-1 span{
+				height: 65px;
+				line-height: 65px;
+				color: white;
+				font-weight: 400;
+				font-size: 18px;
+				display: block;
+				
+			}
+			.foot-top-1 a{
+				text-decoration: none;
+				color: white;
+				margin-bottom: 7px;
+				font-size: 14px;
+				display: block;
+			}
+			/* 尾部底部 */
+			.foot-bottom{
+				
+				background-color: black;
+				flex: 1;
+			}
+			.foot-bottom p{
+				line-height: 25px;
+				color: #fff;
+				font-size: 12px;
+				text-align: center;	
+			}
+			
+			/* 浮动窗口 */          
+			 .fudong{
+				width: 160px;
+				height: 170px;
+				background-color: white;
+				position: fixed;
+				top: 40%;
+				right: 0%;	
+			}
+			.fudong img:nth-child(1){
+				display: block;
+				width: 15px;
+				height: 15px;
+				margin-top: 5px;
+				margin-left: 135px;
+				cursor: pointer;
+			}
+			.fudong img:nth-child(2){
+				width: 90px;
+				height: 90px;
+				display: block;
+				margin-left: 35px;
+				margin-top: 0px;
+			}
+			
+			.fudong span{
+				display: block;
+				height: 14px;
+				line-height: 15px;
+				font-size: 14px;
+				color: #111;
+				text-align: center;
+				margin-top: 13px;
+						}
+						
+	    	/* yincang */
+			.yincang p{
+				color: white;
+				text-align: center;
+				margin-top: 15px;
+			}
+			.yincang div{
+				width: 150px;
+				background-color: #032f4f;
+				position: absolute;
+				top: 0%;
+				display: none;
+			}
+			
+						
+			/* 球队 */
+			.ballteam{
+				position: absolute;
+				left: 8%;
+				z-index: 999;
+				
+			}
+			.ballteam img{
+				width: 1200px;
+				height: 550px;
+			}
+			
+			/* 球员 */
+			.player{
+				height: 100px;
+				position: absolute;
+				left: 45%;	
+			}
+			/* 赛程 */
+			.time{
+				height: 140px;
+				position: absolute;
+				left: 50%;
+			}
+			/* 排名 */
+			.paiming{
+				height: 50px;
+				position: absolute;
+				left: 60%;	
+			}
+			/* 数据 */
+			.data{
+				height: 160px;
+				position: absolute;
+				left: 68%;	
+			}
+			/* 专题 */
+			.topic{
+				height: 200px;
+				position: absolute;
+				left: 75%;	
+			}
+			/* 更多 */
+			.more{
+				height: 160px;
+				position: absolute;
+				left: 88%;	
+			}
